@@ -5,14 +5,14 @@ local wait = task.wait;
 local Players: Players = cloneref(game:GetService("Players"));
 
 local Player: Player = Players.LocalPlayer;
-for i = 0, 200 do
+for i = 0, 20 do
       RemoteEvent:FireServer()
       RemoteEvent:FireServer()
       RemoteEvent:FireServer()
       RemoteEvent:FireServer()
 end;
 wait(3);
-for i = 0, 200 do
+for i = 0, 20 do
       RemoteEvent:FireServer()
       RemoteEvent:FireServer()
       RemoteEvent:FireServer()
