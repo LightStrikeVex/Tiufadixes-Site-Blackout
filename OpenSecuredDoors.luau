@@ -1,4 +1,4 @@
-local ReplicatedStorage: ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage: ReplicatedStorage = game:GetService("ReplicatedStorage");
 local RemoteEvent: RemoteEvent = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("Doors"):WaitForChild("OpenSecured Door");
 
 for _, v in Workspace:GetChildren() do
