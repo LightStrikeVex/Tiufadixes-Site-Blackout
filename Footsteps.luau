@@ -6,7 +6,7 @@ local RemoteEvent: RemoteEvent = Footsteps:WaitForChild("RemoteEvent");
 
 local wait = task.wait;
 
-for i = 0, 20 do
+for i = 0, 200 do
         RemoteEvent:FireServer(Enum.Material.Concrete, Character);
         RemoteEvent:FireServer(Enum.Material.DiamondPlate, Character);
         RemoteEvent:FireServer(Enum.Material.Air, Character);
@@ -25,7 +25,7 @@ for i = 0, 20 do
         RemoteEvent:FireServer(Enum.Material.Sand, Character);
 end;
 wait(3);
-for i = 0, 20 do
+for i = 0, 200 do
         RemoteEvent:FireServer(Enum.Material.Concrete, Character);
         RemoteEvent:FireServer(Enum.Material.DiamondPlate, Character);
         RemoteEvent:FireServer(Enum.Material.Air, Character);
